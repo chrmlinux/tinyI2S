@@ -7,14 +7,14 @@ MIT license, all text here must be included in any redistribution.
 
 # update history
 
-#0.0.1
+# 0.0.1
 
 1st
 
-#0.0.2
+# 0.0.2
 
 Add getRecSize
 
-#0.0.3
+# 0.0.3
 
 Add get err fix
