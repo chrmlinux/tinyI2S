@@ -63,6 +63,7 @@ class tinyI2S {
     uint16_t console(void);
     uint16_t dump(uint32_t);
     uint8_t* get(void);
+		uint32_t getRecSize(void);
     uint16_t put(uint8_t*, uint16_t);
     uint16_t setParam(uint16_t, uint16_t, uint16_t, uint16_t, uint16_t, uint16_t);
 

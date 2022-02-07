@@ -223,6 +223,12 @@ uint16_t tinyI2S::dump(uint32_t len)
   _recordBufFull = false;
 }
 
+uint32_t tinyI2S::getRecSize(void)
+{
+	return _data_offset;
+}
+
+
 //======================================
 // update
 //======================================
