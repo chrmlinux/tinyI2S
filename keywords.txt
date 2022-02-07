@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map tinyI2S
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+tinyI2S 	KEYWORD1	tinyI2S
+tI2S 			KEYWORD1 	tinyI2S
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin			KEYWORD2
+end				KEYWORD2
+update 		KEYWORD2
+record 		KEYWORD2
+play 			KEYWORD2
+setMode 	KEYWORD2
+isBufFull KEYWORD2
+setBufFullFlag KEYWORD2
+console 	KEYWORD2
+get 			KEYWORD2
+put 			KEYWORD2
+setParam	KEYWORD2
