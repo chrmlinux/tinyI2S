@@ -70,6 +70,7 @@ tinyI2S::~tinyI2S(void)
 //======================================
 uint8_t* tinyI2S::get(void)
 {
+	_data_offset = 0;
   return _recordBuf;
 }
 
@@ -78,6 +79,7 @@ uint8_t* tinyI2S::get(void)
 //======================================
 uint16_t tinyI2S::put(uint8_t *dt, uint16_t cnt)
 {
+	_data_offset = 0;
   memcpy(_recordBuf, dt, cnt);
   return 0;
 }
